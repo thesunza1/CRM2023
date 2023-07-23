@@ -112,7 +112,7 @@ export default {
       try {
         // Gửi yêu cầu POST tới backend để kiểm tra đăng nhập
         const response = await axios.post(
-          "http://10.102.24.81:3000/api/accounts/login",
+          "http://10.102.13.5:3000/api/accounts/login",
           {
             user_name: user_name.value,
             password: password.value,
